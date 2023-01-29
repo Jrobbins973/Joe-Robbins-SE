@@ -20,6 +20,7 @@ function App() {
           <a href='https://github.com/Jrobbins973' target="_blank"><FaGithub size={22}/></a>
           <a href='https://medium.com/@joe.robbins.cpt' target="_blank"><  FaMedium size={22}/></a>
           </div>
+          <button className='button-28'>CONNECT</button>
       </div>
 
     <div className='grid-container'>
@@ -32,30 +33,8 @@ function App() {
             data-aos-easing="ease-in-out">
         <MyBackground />
         </div>
-
-        
-      
-      
+ 
       </div>
-
-
-
-
-{/* 
-    <div class="area" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
-    </div > */}
     </div>
   );
 }
