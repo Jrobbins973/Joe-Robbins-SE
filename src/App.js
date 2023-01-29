@@ -20,7 +20,8 @@ function App() {
           <a href='https://github.com/Jrobbins973' target="_blank"><FaGithub size={22}/></a>
           <a href='https://medium.com/@joe.robbins.cpt' target="_blank"><  FaMedium size={22}/></a>
           </div>
-          <button className='button-28'>CONNECT</button>
+          {/* <button className='button-28'>CONNECT</button> */}
+          <a className='contact-me-button' href='mailto:joe.robbins.swe@gmail.com' target="_blank">Lets Connect!</a>
       </div>
 
     <div className='grid-container'>

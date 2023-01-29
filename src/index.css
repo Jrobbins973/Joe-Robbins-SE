@@ -123,11 +123,30 @@ code {
   /* grid-row-gap: 350px */ 
 }
 
+.contact-me-button {
+  position: fixed;
+  z-index: 201;
+  top: 4px;
+  left:18%;
+  /* margin-left: 10px; */
+  /* border: 2px solid black; */
+  padding: 10px;
+  /* padding-top: 10px; */
+  transition: all 1.5s;
+  border-radius: 50px;
+  box-shadow:  2px 2px 5px grey, inset -5px -5px 10px white;
+  text-decoration: none;
+  color: black;
+}
+
+.contact-me-button:hover {
+  box-shadow:  inset 2px 2px 5px grey, inset -5px -5px 10px white;
+}
 
 
 
 /* CSS */
-.button-28 {
+/* .button-28 {
   appearance: none;
   position: absolute;
   background-color: transparent;
@@ -172,4 +191,4 @@ code {
 .button-28:active {
   box-shadow: none;
   transform: translateY(0);
-}
+} */
