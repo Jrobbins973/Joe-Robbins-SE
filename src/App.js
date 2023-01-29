@@ -1,6 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe';
+import MyBackground from './components/MyBackground';
+import { FaLinkedinIn } from "react-icons/fa";
+
+
+
 
 function App() {
   return (
@@ -11,14 +16,11 @@ function App() {
 
     <div className='grid-container'>
       <AboutMe />
-      <AboutMe />
-      <AboutMe />
-      <AboutMe />
-      <AboutMe />
-      <AboutMe />
-      <AboutMe />
-      <AboutMe />
+      <MyBackground />
       </div>
+
+
+
 
 {/* 
     <div class="area" >
