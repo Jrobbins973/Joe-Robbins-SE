@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe';
 import MyBackground from './components/MyBackground';
+import TheIdea from './components/TheIdea';
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa";
@@ -21,18 +22,26 @@ function App() {
           <a href='https://medium.com/@joe.robbins.cpt' target="_blank"><  FaMedium size={22}/></a>
           </div>
           {/* <button className='button-28'>CONNECT</button> */}
-          <a className='contact-me-button' href='mailto:joe.robbins.swe@gmail.com' target="_blank">Lets Connect!</a>
+          <a className='contact-me-button' href='mailto:joe.robbins.swe@gmail.com' target="_blank">Contact</a>
       </div>
 
     <div className='grid-container'>
       <AboutMe />
-      <AboutMe />
+      
 
         <div data-aos="fade-up" 
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out">
+        <TheIdea />
+        
+        <div data-aos="fade-up" 
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
         <MyBackground />
+        </div>
+
         </div>
  
       </div>
