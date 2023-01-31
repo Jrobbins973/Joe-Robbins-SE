@@ -1,6 +1,12 @@
 import React from 'react'
 
 function ContactInfo() {
+
+    const openInNewTab = (url) => {
+        window.open(url, '_blank', 'noreferrer');
+    };
+
+
     return (
         <div className='contact-info'>
             <h1>Joe Robbins</h1>
@@ -11,6 +17,13 @@ function ContactInfo() {
         <a href='https://github.com/Jrobbins973' target="_blank">GitHub</a>
         <br></br>
         <a href='https://medium.com/@joe.robbins.cpt' target="_blank">Medium</a>
+
+
+
+        <button onClick={() => openInNewTab('https://docs.google.com/document/d/1AuSzSV9tqUztxQoA3aDiaqFlox52Ex7NpG4aZZDwP6w/edit?usp=sharing')}> View Resume </button>
+
+
+
         </div>
     )
 }
