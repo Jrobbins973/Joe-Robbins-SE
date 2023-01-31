@@ -7,7 +7,7 @@ return (
     <div className='about-me-box'>
         <div className='about-me-content'>
         <h1>Hi, I'm Joe Robbins!</h1>
-        <h4>I'm a New Jersey based full-stack software engineer. I'm a former exercise physiologist who loves all things health and wellness, exploring the world, and hanging out with my dog Franklin</h4>
+        <p>I'm a New Jersey based full-stack software engineer; A former exercise physiologist who loves all things health and wellness, exploring the world, and hanging out with my dog Franklin</p>
 
         </div>
         {/* <p>I am a former exercise physiologist and researcher who is now making a career transition into software engineering.  </p>
