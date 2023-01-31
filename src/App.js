@@ -11,12 +11,39 @@ function App() {
   return (
   <div className="App">
       <div className='header'>
+      <a href="/" onClick={e => {
+            let contact = document.getElementById("contact");
+            e.preventDefault()
+            contact && contact.scrollIntoView({ behavior: "smooth", block: "start"})
+          }}> Contact Information </a>
+
+            
+
+<a href="/" onClick={e => {
+            let experience = document.getElementById("experience");
+            e.preventDefault()
+            experience && experience.scrollIntoView({ behavior: "smooth", block: "start"})
+          }}> My Experience </a>
+
+
+
+
+          
       </div>
+
+      
 
     <div className='grid-container'>
       <AboutMe />
-      <ContactInfo />
-      <Experience />
+
+        <section id="contact">
+          <ContactInfo />
+        </section>
+
+        <section id='experience'>
+          <Experience />
+        </section>
+
     </div>
   </div>
   );
