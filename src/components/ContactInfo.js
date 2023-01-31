@@ -9,8 +9,12 @@ function ContactInfo() {
 
     return (
         <div className='contact-info'>
-            <h1>Joe Robbins</h1>
-            <h2>Full Stack Developer with a strong background in frontend and backend technologies, including Ruby, Rails, Sinatra, JavaScript, and React. </h2>
+
+            <div className='contact-info-content'>
+            <h1>About Me</h1>
+            <img src = 'https://i.imgur.com/8P3krwf.jpg'/>
+            <p>Full Stack Developer with a background in frontend and backend technologies, including JavaScript, React, Ruby, Rails, and Sinatra. I transitioned into this field out of my love for helping others, technology, and learning. </p>
+            </div>
 
         <a href='https://www.linkedin.com/in/joe-robbins-swe/' target="_blank">LinkedIn</a>
         <br></br>

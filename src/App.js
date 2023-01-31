@@ -15,7 +15,7 @@ function App() {
             let contact = document.getElementById("contact");
             e.preventDefault()
             contact && contact.scrollIntoView({ behavior: "smooth", block: "start"})
-          }}> Contact Information </a>
+          }}> CONTACT </a>
 
             
 
@@ -23,7 +23,7 @@ function App() {
             let experience = document.getElementById("experience");
             e.preventDefault()
             experience && experience.scrollIntoView({ behavior: "smooth", block: "start"})
-          }}> My Experience </a>
+          }}> EXPERIENCE </a>
 
 
 
