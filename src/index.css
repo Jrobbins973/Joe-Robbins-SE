@@ -148,6 +148,77 @@ code {
 
 .work-experience {
   height: 96vh;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.work-experience h1 {
+  position: relative;
+  top: 35px;
+
+}
+.projects a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1px;
+  padding: 5px;
+  margin-bottom: 55px;
+  transition: all 0.3s;
+}
+
+.projects a:hover {
+  background-color: black;
+  color: white;
+}
+
+.projects h3 {
+  position: relative;
+  bottom: 60px; 
+  border-radius: 10px;
+  border: 3px solid black;
+  transition: all 0.3s;
+}
+
+.projects h3:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+.portfolio-desc {
+  position: relative;
+  width: 300px;
+  left: 20%;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.portfolio-stack {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.portfolio-stack p {
+  position: relative;
+  bottom: 95px;
+  left: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.portfolio-img {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 600px;
+  height: 350px;
 }
 
 .contact-info {
@@ -264,11 +335,15 @@ code {
 
 .technology-content {
   position: relative;
-  bottom: 400px;
+  bottom: 350px;
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   
+}
+
+.technology-content a {
+  font-size: 50px;
 }
 
 .technology-content h1 {
