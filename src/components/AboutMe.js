@@ -1,4 +1,7 @@
 import React from 'react'
+import { TbArrowBigDownLines } from "react-icons/tb";
+
+
 
 function AboutMe() {
 return (
@@ -8,7 +11,11 @@ return (
         <div className='about-me-content'>
         <h1>Hi, I'm Joe Robbins!</h1>
         <p>I'm a New Jersey based front-end software engineer; A former exercise physiologist who loves all things health and wellness, exploring the world, and hanging out with my dog Franklin</p>
-
+        <a className='down-arrow' href="/" onClick={e => {
+            let contact = document.getElementById("contact");
+            e.preventDefault()
+            contact && contact.scrollIntoView({ behavior: "smooth", block: "start"})
+            }}> <TbArrowBigDownLines /> </a>
         </div>
         {/* <p>I am a former exercise physiologist and researcher who is now making a career transition into software engineering.  </p>
         <br></br>
