@@ -30,7 +30,7 @@ function App() {
             let experience = document.getElementById("experience");
             e.preventDefault()
             experience && experience.scrollIntoView({ behavior: "smooth", block: "start"})
-          }}> EXPERIENCE </a>
+          }}> PORTFOLIO </a>
 
 
 
