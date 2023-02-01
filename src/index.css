@@ -52,7 +52,7 @@ code {
   padding: 20px;
   position: relative;
   top: 6px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-top: 50px;
   text-decoration: none;
   color: grey;
@@ -133,13 +133,13 @@ code {
 
 .about-me-content {
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Open Sans', sans-serif;
   position: relative;
   top: -25%;
   margin: auto;
   width: 80%;
   font-size: 50px;
-  text-shadow: 1px 2px 5px black;
+  text-shadow: 1px 2px 1px black;
 }
 
 .about-me-content p {
@@ -160,43 +160,64 @@ code {
 }
 
 .contact-info-content img {
-  position: relative;
+  display: flex;
+  position: absolute;
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  right: 400px;
-  top: 200px;
+  right: 120%;
+  top: 20%;
   /* object-fit: ; */
 }
 
-/* .contact-info h1{
-  color: white;
-  position: absolute;
-  left: 32.5%;
-  top: 119%;
-} */
-
-.contact-info p {
+/* .contact-info p {
   position: relative;
   left: 18%;
   top: -20%;
-}
+} */
 
 .contact-info-content {
   position: absolute;
+  text-align: justify;
   bottom: -32%;
-  width: 700px;
-  right: 29%;
+  width: 630px;
+  /* right: 30%; */
   font-size: 18px;
-  font-family: garamond;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 100;
 }
 
 .contact-info-content h1 {
   position: absolute;
   color: white;
-  left: 22%;
-  top: 60%;
+  /* left: -10%; */
+  top: -10%; 
+}
+
+
+.site-links {
+  display: inline-block;
+  /* align-items: center; */
+}
+
+
+.site-link-style a{
+  /* display: flex; */
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: -70px;
+  left: 33px;
+  padding: 80px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: all 0.3;
+}
+
+.site-link-style a:hover {
+  color: aqua;
+  /* text-shadow: 2px 2px 1px black; */
 }
 
 /* .contact-info-content h1 {
