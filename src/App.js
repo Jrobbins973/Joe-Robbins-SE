@@ -3,8 +3,7 @@ import './App.css';
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
 import ContactInfo from './components/ContactInfo';
-
-
+import Technology from './components/Technology';
 
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
             let contact = document.getElementById("contact");
             e.preventDefault()
             contact && contact.scrollIntoView({ behavior: "smooth", block: "start"})
-          }}> CONTACT </a>
+          }}> ABOUT ME </a>
 
             
 {/* NAV BAR BUTTON */}
@@ -44,11 +43,14 @@ function App() {
 
       <section id='home'>
       <AboutMe />
+      
       </section>
 
         <section id="contact">
           <ContactInfo />
+          <Technology />
         </section>
+
 
         <section id='experience'>
           <Experience />

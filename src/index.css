@@ -206,7 +206,7 @@ code {
   font-family: 'Open Sans', sans-serif;
   position: relative;
   top: -70px;
-  left: 33px;
+  left: 90px;
   padding: 80px;
   margin-left: 20px;
   text-decoration: none;
@@ -220,12 +220,63 @@ code {
   /* text-shadow: 2px 2px 1px black; */
 }
 
-/* .contact-info-content h1 {
-  position: absolute;
+.resume-button {
+  display: flex;
+  cursor: pointer;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  left: 80px;
+  bottom: 200px;
+  height: 50px;
+  padding: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  transition: all 0.3s;
+  background-color: black;
   color: white;
-  top: -50px;
-  right: 600px
-}  */
+}
+
+.resume-button:hover {
+  transform: scale(1.05);
+  background-color: white;
+  color: black;
+
+}
+
+.technology-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.technology-content {
+  position: relative;
+  bottom: 400px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  
+}
+
+.technology-content h1 {
+  border-bottom: 2px solid white;
+}
+
+.icons {
+  padding: 20px;
+
+}
+
+.down-arrow {
+  color: white;
+}
+
+.down-arrow:hover {
+  color: aqua;
+}
 
 
 .grid-container {

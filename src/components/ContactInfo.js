@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Technology from './Technology';
 function ContactInfo() {
 
     const openInNewTab = (url) => {
@@ -29,10 +29,12 @@ function ContactInfo() {
 
 
 
-        <button onClick={() => openInNewTab('https://docs.google.com/document/d/1AuSzSV9tqUztxQoA3aDiaqFlox52Ex7NpG4aZZDwP6w/edit?usp=sharing')}> View Resume </button>
+        
+        <button className='resume-button' onClick={() => openInNewTab('https://docs.google.com/document/d/1AuSzSV9tqUztxQoA3aDiaqFlox52Ex7NpG4aZZDwP6w/edit?usp=sharing')}> View Resume </button>
 
+     
 
-
+        
         </div>
     )
 }
