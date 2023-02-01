@@ -4,7 +4,7 @@ import { SiJavascript } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiRubyonrails } from "react-icons/si";
 import { SiRuby } from "react-icons/si";
-
+import { FiChevronsDown } from "react-icons/fi";
 
 
 function Technology() {
@@ -21,6 +21,12 @@ return (
             <SiRuby style={{marginLeft: '20px'}}size={50}/>
             <SiRubyonrails style={{marginLeft: '20px'}}size={50}/>
             </div>
+
+            <a className='down-arrow' href="/" onClick={e => {
+            let experience = document.getElementById("experience");
+            e.preventDefault()
+            experience && experience.scrollIntoView({ behavior: "smooth", block: "start"})
+          }}> <FiChevronsDown/> </a>
 
         </div>
         

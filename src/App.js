@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe';
-import Experience from './components/Experience';
+import Experience from './components/Portfolio';
 import ContactInfo from './components/ContactInfo';
 import Technology from './components/Technology';
 
