@@ -1,5 +1,6 @@
 import React from 'react'
 import { TbArrowBigDownLines } from "react-icons/tb";
+import { FiChevronsDown } from "react-icons/fi";
 
 
 
@@ -15,7 +16,7 @@ return (
             let contact = document.getElementById("contact");
             e.preventDefault()
             contact && contact.scrollIntoView({ behavior: "smooth", block: "start"})
-            }}> <TbArrowBigDownLines /> </a>
+            }}> <FiChevronsDown /> </a>
         </div>
         {/* <p>I am a former exercise physiologist and researcher who is now making a career transition into software engineering.  </p>
         <br></br>

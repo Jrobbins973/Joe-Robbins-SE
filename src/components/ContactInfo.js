@@ -29,8 +29,12 @@ function ContactInfo() {
 
 
 
-        
+        <div className='contact-button-container'>
+
         <button className='resume-button' onClick={() => openInNewTab('https://docs.google.com/document/d/1AuSzSV9tqUztxQoA3aDiaqFlox52Ex7NpG4aZZDwP6w/edit?usp=sharing')}> View Resume </button>
+        
+        <a href='mailto:joe.robbins.swe@gmail.com' target="_blank"><button className='resume-button' style={{marginTop: '20px'}} >Lets Connect </button></a>
+        </div>
 
      
 
