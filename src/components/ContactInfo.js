@@ -14,7 +14,7 @@ function ContactInfo() {
             <h1>About Me</h1>
             <br></br>
             <img src = 'https://i.imgur.com/8P3krwf.jpg'/>
-            <p>Front-End Developer with a background in exercise physiology and clinical research. Experienced in technologies including JavaScript, React, Ruby, Rails, and Sinatra. I transitioned into this field out of my love for helping others, technology, and learning. </p>
+            <p>Front-End Developer with a background in exercise physiology and clinical research. Experienced in technologies including JavaScript, React, Ruby, Rails, and ActiveRecord. I transitioned into this field out of my love for helping others, technology, and learning. </p>
             </div>
 
         <div className='site-links'>
