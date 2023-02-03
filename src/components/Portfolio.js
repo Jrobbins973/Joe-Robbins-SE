@@ -18,7 +18,7 @@ function Experience() {
             
 
             <div className='projects'>
-                <h2 style={{marginBottom: '5px'}}>Apartment-Connect | <a href='https://www.youtube.com/watch?v=I21CF9-EHDw'>VIDEO DEMO</a></h2>
+                <h2 style={{marginBottom: '5px'}}>Apartment-Connect | <a href='https://www.youtube.com/watch?v=I21CF9-EHDw' target="_blank">VIDEO DEMO</a></h2>
                 <p><i>Flatiron Capstone Project</i></p>
                 <br></br>
                 <p className='portfolio-desc'>Central Hub for apartment tenants to access lease information, participate in forums, schedule events, and monitor rent information</p>
