@@ -59,6 +59,10 @@ code {
   transition: all 0.3s;
 }
 
+.header a:focus {
+  color: aqua;
+}
+
 .header a:hover {
   color: aqua;
 }
