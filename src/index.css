@@ -29,7 +29,9 @@ body {
 
 
 
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -60,11 +62,11 @@ code {
 }
 
 .header a:focus {
-  color: aqua;
+  color: orange;
 }
 
 .header a:hover {
-  color: aqua;
+  color: orange;
 }
 
 .header img {
@@ -128,26 +130,33 @@ code {
   flex-direction: column;
   /* position: absolute; */
   top: 00px;
-  background-image: url('https://i.imgur.com/0UviLjL.jpg');
-  background-size: cover;
+  /* background-image: url('https://i.imgur.com/0UviLjL.jpg'); */
+  /* background-size: cover; */
   /* background-size: contain; */
+  background-color: #485836;
   max-width: 100%;
   height: 100vh;
 }
 
 .about-me-content {
-  color: white;
+  text-align: left;
+  padding-top: 30px;
+  color: black;
   font-family: 'Open Sans', sans-serif;
   position: relative;
-  top: -25%;
+  top: 0%;
   margin: auto;
   width: 80%;
   font-size: 50px;
-  text-shadow: 1px 2px 1px black;
+  /* text-shadow: 1px 2px 1px black; */
 }
 
 .about-me-content p {
   font-size: 25px;
+}
+
+.about-me-content h5 {
+  width: 50%;
 }
 
 .work-experience {
@@ -196,7 +205,7 @@ code {
 .portfolio-desc {
   position: relative;
   width: 300px;
-  left: 20%;
+  left: 60%;
   font-weight: bold;
   border: 2px solid black;
   border-radius: 10px;
@@ -209,6 +218,13 @@ code {
   
 }
 
+.portfolio-title {
+  font-size: 50px;
+  position: relative;
+  top: 200px;
+
+}
+
 .portfolio-stack p {
   position: relative;
   bottom: 95px;
@@ -219,8 +235,9 @@ code {
 
 .portfolio-img {
   margin-top: 50px;
+  padding-left: 150px;
+  float: left;
   margin-bottom: 10px;
-  display: inline-block;
   width: 600px;
   height: 350px;
 }
@@ -291,7 +308,7 @@ code {
 }
 
 .site-link-style a:hover {
-  color: aqua;
+  color: orange;
   /* text-shadow: 2px 2px 1px black; */
 }
 
@@ -364,7 +381,7 @@ code {
 }
 
 .down-arrow:hover {
-  color: aqua;
+  color: orange;
 }
 
 
@@ -400,4 +417,62 @@ code {
   box-shadow:  inset 2px 2px 5px grey, inset -5px -5px 10px white;
 }
 
+.project-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
 
+.project-box {
+  box-shadow: 1px 1px 10px black;
+  width: 75vw;
+  margin: 10px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: rgb(52, 51, 51);
+}
+
+.project-box h1 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  /* border-bottom: 3px solid black; */
+  box-shadow: 0px 2px 2px rgba(255, 255, 255, 0.5);
+  color: white;
+  font-size: 34px;
+}
+
+.project-box p {
+  position: relative;
+  top: 5%;
+  color: grey;
+  /* left: vw; */
+}
+
+.project-box h2 {
+  color: white;
+  font-size: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+
+}
+
+.project-box__github {
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.project-box__github:hover {
+  transform: scale(1.5);
+  color: orange;
+}
+
+.project-box img {
+  /* position: relative; */
+  width: 600px;
+  height: 350px;
+  /* bottom: 20%; */
+  float: left;
+  display: block;
+  margin-left: 50px;
+  border-radius: 20px;
+}
