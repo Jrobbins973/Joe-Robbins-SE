@@ -451,7 +451,7 @@ code {
 .project-box h2 {
   color: white;
   font-size: 20px;
-  padding-right: 25px;
+  padding-right: 20px;
   padding-left: 25px;
 
 }
@@ -473,6 +473,6 @@ code {
   /* bottom: 20%; */
   float: left;
   display: block;
-  margin-left: 50px;
+  margin-left: 30px;
   border-radius: 20px;
 }

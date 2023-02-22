@@ -21,7 +21,7 @@ function App() {
     },
     {
       title: 'Reactr',
-      description: "Description goes here!",
+      description: "Text based social network. users can create, edit, and delete their own posts, as well as follow other users and comment on their posts.",
       image: 'https://i.imgur.com/RAuy4FJ.png',
       tags: ['React', 'ChatEngine', 'Firebase'],
       source: 'https://github.com/nardling/phase-4-project',
@@ -31,7 +31,7 @@ function App() {
     },
     {
       title: 'MovieBuddy',
-      description: "Description goes here!",
+      description: "Movie database that allows users to view, comment, and rate movies.",
       image: 'https://i.imgur.com/4ttIp9o.jpg',
       tags: ['React', 'WebRTC'],
       source: 'https://github.com/Jrobbins973/phase-3-front-end-react',
@@ -41,7 +41,7 @@ function App() {
     },
     {
       title: 'Pro-active',
-      description:"Description goes here!",
+      description:"Health and Wellness app designed for those working from home. Provides stretches to do, along with equipment to maintain a healthy lifestyle.",
       image: 'https://i.imgur.com/hy1sasZ.png',
       tags: ['React', 'JavaScript'],
       source: 'https://github.com/Jrobbins973/Phase-2-Project',
@@ -51,7 +51,7 @@ function App() {
     },
     {
       title: 'YourFitnessFriend',
-      description: "Description goes here!",
+      description: "Simple workout planning app. Lets users plan a workout, view sets and reps, and add / remove them from their schedule.",
       image: 'https://i.imgur.com/r80auoK.png',
       tags: ['JavaScript', 'Express', 'React', 'Node'],
       source: 'https://github.com/Jrobbins973/Exercise-api',
