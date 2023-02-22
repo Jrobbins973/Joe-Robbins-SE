@@ -50,13 +50,13 @@ function App() {
       id: 1,
     },
     {
-      title: 'YourFitnessFriend',
-      description: "Simple workout planning app. Lets users plan a workout, view sets and reps, and add / remove them from their schedule.",
-      image: 'https://i.imgur.com/r80auoK.png',
+      title: 'Dictionary App',
+      description: "Users can search words and receive definitions.",
+      image: 'https://i.imgur.com/MmN31Uj.png',
       tags: ['JavaScript', 'Express', 'React', 'Node'],
-      source: 'https://github.com/Jrobbins973/Exercise-api',
+      source: 'https://github.com/Jrobbins973/Dictionary-App-FEM',
       video: 'https://www.youtube.com/watch?v=N-IjnXJAWWA',
-      technology: 'JavaScript | HTML/CSS',
+      technology: 'React | HTML/CSS',
       id: 0,
   },
   ]
