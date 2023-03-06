@@ -9,19 +9,25 @@ body {
     padding: 0px;
 }
 
-@media (max-width: 500px) {
-  * {
-    width: 100%;
-  }
+@media (max-width: 780px) {
+  /* * {
+    width: 100;
+  } */
 
   .about-me-box {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     font-size: 10px;
-    width: 200px;
+    width: 800px;
   }
 
   .about-me-box p {
     font-size: 30px;
+  }
+
+  .resume-button {
+    display: flex;
+    position: relative;
+    left: 200px;
   }
 }
 
@@ -476,3 +482,4 @@ code {
   margin-left: 30px;
   border-radius: 20px;
 }
+
